@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eureka-consumer
+eureka:
+  server:
+    enable-self-preservation: false
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+feign:
+  hystrix:
+    enabled: true

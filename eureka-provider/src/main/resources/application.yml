@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-provider
+eureka:
+  server:
+    enable-self-preservation: false
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
