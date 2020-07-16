@@ -47,6 +47,7 @@
         <module>eureka-server</module>
         <module>eureka-provider</module>
         <module>eureka-consumer</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
 
