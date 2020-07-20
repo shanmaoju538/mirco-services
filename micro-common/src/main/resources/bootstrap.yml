@@ -1,0 +1,4 @@
+zk:
+  address: 81.70.10.71:2181
+  path: /config/micro
+  version: 1.0

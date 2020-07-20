@@ -48,6 +48,7 @@
         <module>eureka-provider</module>
         <module>eureka-consumer</module>
         <module>hystrix-dashboard</module>
+        <module>micro-common</module>
     </modules>
 
 
