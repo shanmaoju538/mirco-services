@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("hello")
     public String hello(@RequestParam("name") String name){
-        return "hello, "+name+" provider is ready";
+        return "hello, "+name+" provider is ready!";
     }
 
 }
