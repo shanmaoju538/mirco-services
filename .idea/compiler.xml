@@ -11,6 +11,7 @@
         <module name="eureka-server" />
         <module name="hystrix-dashboard" />
         <module name="micro-common" />
+        <module name="zuul-proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

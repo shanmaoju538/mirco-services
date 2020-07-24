@@ -49,6 +49,7 @@
         <module>eureka-consumer</module>
         <module>hystrix-dashboard</module>
         <module>micro-common</module>
+        <module>zuul-proxy</module>
     </modules>
 
 
