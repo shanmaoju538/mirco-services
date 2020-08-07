@@ -5,13 +5,15 @@
     <parent>
         <artifactId>micro-services</artifactId>
         <groupId>com.shooter</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>eureka-server</artifactId>
     <groupId>com.shooter</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+    <name>eureka_server</name>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>1.8</java.version>
@@ -36,6 +38,19 @@
             </exclusions>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
     
 
 </project>
